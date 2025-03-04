@@ -19,3 +19,12 @@ li :any-link{
 .dropdown-menu{ 
     color: #ffffff;
 }
+.container-fluid{
+    background-image: url(img/banner1.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
+    position: relative; 
+    overflow: hidden;
+}
