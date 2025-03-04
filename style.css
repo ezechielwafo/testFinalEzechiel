@@ -76,3 +76,7 @@ a:hover{
 .deplace{
     flex-direction: column;
 }
+.movv{
+    color: #ffffff;
+    margin-left: 15cm;
+}
