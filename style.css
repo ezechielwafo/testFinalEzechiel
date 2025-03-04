@@ -9,12 +9,14 @@
 .navbar{
    position: fixed;
     color: #ffffff;
-    margin-left: 1cm;
+    margin-left: 0cm;
     z-index: 1000;
+    width: 100%;
 }
 
-.navbar.scrolled {
+.navbar :hover {
     background-color: black;
+    color: #ffffff;
 }
 li :any-link{
     font-family: 'Arial'; /* Remplacez 'Arial' par la police de votre choix */
@@ -41,4 +43,29 @@ li :any-link{
 }
 p{
   font-size: 20px; 
+}
+.card {
+    margin-top: 1cm;
+    background-color: black;
+}
+.card-title, .card-text{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+
+    background-color: rgb(255, 72, 0);
+}
+.red{
+    width: 5rem;
+    margin-left:4cm ;
+    border-radius: 10rem;
+    margin-left:5rem
+}
+.red:hover{
+    background-color: rgb(255, 115, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
 }
