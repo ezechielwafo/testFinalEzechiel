@@ -9,52 +9,42 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
- <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-white" style="flex-direction: column;">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Navbar brand -->
-           <img src="img/logoY3.jpg" style="width: 0.9cm; height:1cm; margin-left:1cm">
-          <a class="navbar-brand" href="#" style="color: black;">FLIX</span> PRIME</a>
-      
-          <!-- Toggle button -->
-          <button class="navbar-toggler" type="button" data-mdb-collapse-init
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars text-light"></i>
-          </button>
-      <div class="col"></div>
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Search form -->
-            <form class="d-flex input-group w-auto ms-lg-3 my-3 my-lg-0">
-              <input type="search" class="form-control" style="border-radius: 5cm; width:9cm" placeholder="Search" aria-label="Search" />
-              <button  class="btn" type="button" data-mdb-ripple-init data-mdb-ripple-color="dark" style="background-color: rgb(162, 178, 192); border-radius: 10cm;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1
-                   1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                </svg>
-            </button >
-            </form>
-            <!-- Right links -->
-            <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0" >
-      
-              <li class="nav-item text-center mx-2 mx-lg-1">
-                <a class="nav-link" href="#!" >
-                  <div>
-                   <button type="text" style="color: rgb(2, 2, 2) 2cm; border-radius:1cm; ">
-                  + Creer </button>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item text-center mx-2 mx-lg-1">
-        
-              </li>
-            </ul>
-          </div>
-          <!-- Collapsible wrapper -->
+ <body style="background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-none">
+        <a class="navbar-brand mon-texte" href="#"> <span style="color: rgb(255, 94, 0);">FLIX</span> PRIME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="col-2 modifer"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color: aliceblue;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: aliceblue;">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
         </div>
-        <!-- Container wrapper -->
       </nav>
+    </div>
  </body>
 </html>
