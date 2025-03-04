@@ -7,10 +7,14 @@
     
 }
 .navbar{
-    display: flex;
+   position: fixed;
     color: #ffffff;
     margin-left: 1cm;
     z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: black;
 }
 li :any-link{
     font-family: 'Arial'; /* Remplacez 'Arial' par la police de votre choix */
@@ -20,7 +24,7 @@ li :any-link{
 .dropdown-menu{ 
     color: #ffffff;
 }
-.container-fluid{
+.recup{
     background-image: url(img/banner1.jpg);
     background-size: cover; 
     background-position: center;
@@ -34,4 +38,7 @@ li :any-link{
     color: #ffffff;
     margin-top: 16rem;
 
+}
+p{
+  font-size: 20px; 
 }
