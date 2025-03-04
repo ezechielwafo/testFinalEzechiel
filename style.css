@@ -6,10 +6,16 @@
     margin-left: 2cm;
     
 }
-.nav{
-    margin-top: 1cm;
+.navbar{
+    color: #ffffff;
+    margin-left: 1cm;
+    margin-bottom: ;
+}
+li :any-link{
+    font-family: 'Arial'; /* Remplacez 'Arial' par la police de votre choix */
+    font-size: 21px; /* Taille de la police */
+    color: #ffffff; /* Couleur du texte */
+}
+.dropdown-menu{ 
     color: #ffffff;
 }
-.mofier{
-
-}    margin-top: ;
