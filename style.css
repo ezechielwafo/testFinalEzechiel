@@ -70,3 +70,9 @@ a:hover{
     opacity: 50%;
     color: rgb(255, 255, 255);
 }
+.p-3{
+    color: #ffffff;
+}
+.deplace{
+    flex-direction: column;
+}
