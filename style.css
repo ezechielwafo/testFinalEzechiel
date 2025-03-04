@@ -7,9 +7,10 @@
     
 }
 .navbar{
+    display: flex;
     color: #ffffff;
     margin-left: 1cm;
-    margin-bottom: ;
+    z-index: 1000;
 }
 li :any-link{
     font-family: 'Arial'; /* Remplacez 'Arial' par la police de votre choix */
@@ -31,6 +32,6 @@ li :any-link{
 
 .modifiers{
     color: #ffffff;
-    margin-top: 15rem;
+    margin-top: 16rem;
 
 }
