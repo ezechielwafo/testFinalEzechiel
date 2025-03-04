@@ -28,3 +28,9 @@ li :any-link{
     position: relative; 
     overflow: hidden;
 }
+
+.modifiers{
+    color: #ffffff;
+    margin-top: 15rem;
+
+}
